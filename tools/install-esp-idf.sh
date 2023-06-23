@@ -11,7 +11,8 @@ fi
 # CLONE ESP-IDF
 #
 
-IDF_REPO_URL="https://github.com/espressif/esp-idf.git"
+#IDF_REPO_URL="https://github.com/espressif/esp-idf.git"
+IDF_REPO_URL="https://github.com/michioya/esp-idf.git"
 if [ ! -d "$IDF_PATH" ]; then
 	echo "ESP-IDF is not installed! Installing local copy"
 	git clone $IDF_REPO_URL -b $IDF_BRANCH

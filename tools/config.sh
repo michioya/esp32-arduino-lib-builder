@@ -8,6 +8,7 @@ fi
 if [ -z $IDF_BRANCH ]; then
 	IDF_BRANCH="release/v4.4"
 fi
+IDF_BRANCH="spe"
 
 if [ -z $AR_PR_TARGET_BRANCH ]; then
 	AR_PR_TARGET_BRANCH="release/v2.x"
